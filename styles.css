@@ -1,0 +1,107 @@
+/* .helicopter{
+    /* width: 100vh; */
+    /* height: 100vh;
+    position: relative; */
+    /* background-image: url("./assets/heli.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    opacity: 0.5; */
+    /* background-color: black; */
+/* } */
+
+/* .helicopter::before{
+    background-image: url("./assets/heli.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+.xyz{
+    position: relative;
+} */ */
+
+.helicopter {
+    position: relative; 
+   
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+}
+
+.helicopter::before {    
+      content: "";
+      height: 100vh;
+      background-image: url('./assets/heli.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+    
+
+}
+
+.xyz {
+  position: relative;
+ 
+  color: black;
+  text-align: center;
+  font-family: initial;
+}
+
+.logo-img {
+    border-radius: 50%;
+}
+
+.header{
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+
+    background-color: #f0fbff3b;
+}
+
+.content{
+    background-color: #3356f71c;
+
+    
+}
+
+
+.con{
+    margin-top: 100px;
+    background-color:#2e28285e
+}
+
+
+.card{
+    margin:20px;
+    flex-basis: 33%;
+  }
+
+.vil{
+    font-size: 3.5rem;
+   }
+
+@media only screen and (min-width: 600px)  {
+  .vil{
+    font-size: 6.5rem;
+  }
+
+  .con{
+    display: flex;
+
+  }
+
+  
+   
+}
